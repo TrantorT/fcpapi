@@ -14,32 +14,36 @@ This first version will focus on the matches of FCPorto.
 
         [
             {
-                "name": "Borussia Mönchengladbach",
-                "shortName": "M'gladbach",
-                "website": "http://www.borussia.de",
-                "email": "info@borussia.de",
-                "founded": 1900,
-                "clubColors": "Black / White / Green",
+                "name": "Futebol Clube do Porto",
+                "shortName": "FCP",
+                "website": "http://www.fcp.pt",
+                "email": "info@",
+                "founded": 1896,
+                "clubColors": "Azul e Branco",
                 "venue": null,
-                "choices": [
+                "players": [
                     {
-                        "choice": "ralho",
-                        "votes": 2048
+                        "id": 1,
+                        "name": "Marchesin",
+                        "position":"GK"
                     }, {
-                        "choice": "Python",
-                        "votes": 1024
+                        "id": 2,
+                        "name": "Pepe",
+                        "position":"GK"
                     }, {
-                        "choice": "Objective-C",
-                        "votes": 512
+                        "id": 2,
+                        "name": "Pepe",
+                        "position":"GK"
                     }, {
-                        "choice": "Ruby",
-                        "votes": 256
+                        "id": 2,
+                        "name": "Pepe",
+                        "position":"GK"
                     }
                 ]
             }
         ]
 
-## Matches Collection [/matches]
+## Matches Collection [/v1/matches]
 
 ### Get all Matches [GET]
 
@@ -47,21 +51,40 @@ This first version will focus on the matches of FCPorto.
 
         [
             {
-                "question": "Favourite programming language?",
-                "published_at": "2015-08-05T08:40:51.620Z",
-                "choices": [
+                
+                "matches": [
                     {
-                        "choice": "Swift",
-                        "votes": 2048
+                        "id": 1,
+                        "date": 2048,
+                        "hometeam":"FCP",
+                        "awayteam":"SCP",
+                        "result":"1-1",
+                        "HTresult":"1-0",
+                        "scorer":"Marega(38),Sporar(56)"
                     }, {
-                        "choice": "Python",
-                        "votes": 1024
+                        "id": 1,
+                        "date": 2048,
+                        "hometeam":"FCP",
+                        "awayteam":"SCP",
+                        "result":"1-1",
+                        "HTresult":"1-0",
+                        "scorer":"Marega(38),Sporar(56)"
                     }, {
-                        "choice": "Objective-C",
-                        "votes": 512
+                        "id": 1,
+                        "date": 2048,
+                        "hometeam":"FCP",
+                        "awayteam":"SCP",
+                        "result":"1-1",
+                        "HTresult":"1-0",
+                        "scorer":"Marega(38),Sporar(56)"
                     }, {
-                        "choice": "Ruby",
-                        "votes": 256
+                        "id": 1,
+                        "date": 2048,
+                        "hometeam":"FCP",
+                        "awayteam":"SCP",
+                        "result":"1-1",
+                        "HTresult":"1-0",
+                        "scorer":"Marega(38),Sporar(56)"
                     }
                 ]
             }
