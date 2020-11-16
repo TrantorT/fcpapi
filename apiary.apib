@@ -6,9 +6,9 @@ HOST: https://polls.apiblueprint.org/
 FootballAPI is a simple API allowing consumers query information on football matches and players.
 This first version will focus on the matches of FCPorto.
 
-## Players Collection [/v1/players]
+## Teams Collection [/v1/teams]
 
-### Get all Players [GET]
+### Get all Teams [GET]
 
 + Response 200 (application/json)
 
@@ -21,6 +21,19 @@ This first version will focus on the matches of FCPorto.
                 "founded": 1896,
                 "clubColors": "Azul e Branco",
                 "venue": null,
+                "id":1
+            }
+        ]
+
+## Players Collection [/v1/players]
+
+### Get all Players [GET]
+
++ Response 200 (application/json)
+
+        [
+            {
+                "id":1,
                 "players": [
                     {
                         "id": 1,
